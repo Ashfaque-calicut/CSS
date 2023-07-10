@@ -1,0 +1,15 @@
+.mydiv{
+    background-color:rgb(43, 43, 230);
+    width: 750px;
+    height: 850px;
+}
+.mydiv1{
+    background-color:orange;
+    width: 600px;
+    height: 800px;
+    border: 7px solid black;
+
+}
+.mydiv1 p{
+    line-height: 32px;
+}
