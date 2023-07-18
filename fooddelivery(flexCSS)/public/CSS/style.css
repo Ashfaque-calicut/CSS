@@ -1,0 +1,109 @@
+nav{
+    background-color: black;
+    height: 50px;
+}
+.div1{
+
+    height: 650px;
+    width: 100%;
+
+}
+.div13{
+    position: relative;
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{   
+    position: absolute; 
+    background-color: red;
+    color: white;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-indent: 300px;
+    padding-left: 30px;
+    
+}
+.div2 h2{
+    text-align: center;
+    font-style: italic;
+}
+.div3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.div4{
+    
+    border: 2px solid red;
+    border-radius: 3px;
+    width: 30%;
+    
+    
+}
+.div5{
+    
+    border: 2px solid red;
+    border-radius: 3px;
+    width: 30%;
+    
+}
+.div6{
+    
+    border: 2px solid red;
+    border-radius: 3px;
+    width: 30%;
+   
+}
+.div7{
+    background-color: gray;
+    height: 300px;
+
+    
+}
+.div7 h2{
+    text-align: center;
+    font-weight: 600px;
+    font-style: italic;
+    color: black;
+
+}
+.div8{
+   display: flex;
+   justify-content: space-around;
+}
+.div9{
+    height: 400px;
+   
+}
+.div9 h2{
+    text-align: center;
+    font-weight: 600px;
+    font-style: italic;
+    color: black;
+}
+.div10{
+    text-align: left;
+}
+.div11{
+    
+    background-color: black;
+}
+.div11 p{
+    text-align: center;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

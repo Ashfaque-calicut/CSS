@@ -1,0 +1,96 @@
+body{
+    background-color:#fff;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.title{
+    width: 500px;
+}
+.title img{
+    width: 235px;
+    margin-bottom: -10px;
+}
+.title p{
+    font-size: 26px;
+    font-weight: normal;
+    color: black;
+    line-height: 32px;
+}
+.formarea{
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+    border: 5px;
+    background-color: #fff;
+    margin-left: 60px;
+    box-shadow: 0px 2px 10px rgba(71, 71,71, 0.52);
+}
+.formarea input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+
+}
+.formarea button{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    border: none;
+    padding: 13px 0;
+    background-color: #1877f2;
+    cursor: pointer;
+
+}
+.formarea input :focus{
+    box-shadow: 0px 0px 1px 1px rgb(22, 111,229);
+}
+.formarea button:hover{
+    background: #1877f2;
+
+}
+.formarea a{
+    color: #1877f2;
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+   display: block;
+}
+.formarea a:hover{
+    text-decoration: underline;
+}
+.formarea hr{
+    border: 1px solid #dadde1;
+    margin-bottom: 15px;
+
+}
+.formarea .new a{
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #fff;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #44c52a;
+
+   
+}
